@@ -1,12 +1,24 @@
 <div class="appBackground" fxLayout="column" fxLayoutGap="5px">
 
-  <div class="appHeader" fxLayout="row">
-      <a>
-          <img class="headerLogo" src="../assets/logo.png">
-          </a>
-  </div>
+<!-- HEADER -->
 
-  <mat-toolbar style="background-color: #AEB6BF ; padding: 20px; width: 100%;"> DASHBOARD</mat-toolbar>
+    <div class="appHeader" fxLayout="row">
+        <a>
+          <!-- <img class="headerLogo" src="../assets/logo.png"> -->
+          <p style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; font-size: larger; font-style: italic; color: whitesmoke;">APP ANALYSIS</p>
+        </a>
+    </div>
+
+<!-- TOOLBAR -->
+
+    <mat-toolbar style="background-color: #AEB6BF ; padding: 20px; width: 100%;">
+        <p style="font-family: 'Times New Roman', Times, serif; font-weight: bolder; font-size: larger; font-style: italic; color: black;">
+          DASHBOARD
+        </p>
+    </mat-toolbar>
+
+  <!-- CONTIANER -->
+
     <div fxLayout="row">
       <mat-card class="chartCard">
         <div fxLayout="row wrap" fxLayoutGap="2px" fxLayoutAlign="space-around center">
@@ -28,9 +40,9 @@
         </div>
       </mat-card>
 
-  </div>
+    </div>
 
-  <div fxLayout="row wrap" fxLayoutGap="1px" fxLayoutAlign="space-around center">
+    <div fxLayout="row wrap" fxLayoutGap="1px" fxLayoutAlign="space-around center">
       <div fxFlex="24">
           <mat-card class="cardStyle">Simple card</mat-card>
       </div>
@@ -46,9 +58,11 @@
       <div fxFlex="24">
           <mat-card class="cardStyle">Simple card</mat-card>
       </div>
-  </div>
+    </div>
 
-  <div style="background: #2d2d2d; opacity: 0.5;" fxLayout="row wrap"  fxLayoutAlign="center center">
-      <p class="footer-links" style="font-size: small; margin-top: 10px; color: white;"> © 2019</p>
-  </div>
+<!-- FOOTER -->
+
+    <div style="background: #2d2d2d; opacity: 0.5;" fxLayout="row wrap"  fxLayoutAlign="center center">
+        <p class="footer-links" style="font-size: small; margin-top: 10px; color: white;"> © 2019</p>
+    </div>
 </div>
