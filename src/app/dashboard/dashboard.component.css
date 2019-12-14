@@ -1,0 +1,25 @@
+.appHeader{
+    background-color: #3498DB ;
+    box-shadow: 3px 3px 2px grey;
+    height: 60px;
+    width: auto;
+}
+
+.cardStyle{
+    background-color: whitesmoke;
+    height: 200px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 2px grey;
+}
+
+.chartCard{
+  width: 100%;
+  background-color: whitesmoke;
+  height: 277px;
+  box-shadow: 3px 3px 2px grey;
+}
+
+.appBackground{
+  background-color:#F8F9F9;
+  background-size: cover;
+}
