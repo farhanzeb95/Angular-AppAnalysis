@@ -1,9 +1,24 @@
 .appHeader{
     background-color: #3498DB ;
-    box-shadow: 3px 3px 2px grey;
+    box-shadow: 3px 3px 2px black;
     height: 60px;
     width: auto;
     padding-left: 20px;
+}
+
+.toolbarStle{
+    background-color: #AEB6BF;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.toolbarLogo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+    color: black;
 }
 
 .cardStyle{
@@ -14,26 +29,31 @@
 }
 
 .chartCard{
-  width: 100%;
-  background-color: whitesmoke;
-  height: 247px;
-  box-shadow: 3px 3px 2px grey;
-  padding: 15px;
+    width: 100%;
+    background-color: whitesmoke;
+    height: 247px;
+    box-shadow: 3px 3px 2px grey;
+    padding: 15px;
 }
 
 .chartSubCards{
-  background-color: whitesmoke;
-  height: 200px;
-  margin-top: 10px;
-  box-shadow: 3px 3px 2px grey;
+    background-color: whitesmoke;
+    height: 200px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 2px grey;
 }
 .appBackground{
-  background-color:#F8F9F9;
-  background-size: 100% 100%;
-  height: 100%;
+    background-color:#F8F9F9;
+    background-size: 100% 100%;
+    height: 100%;
 }
 
 .headerLogo{
-  width: 200px;
-  height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+    color: whitesmoke;
+    /* width: 200px;
+    height: 30px; */
 }
