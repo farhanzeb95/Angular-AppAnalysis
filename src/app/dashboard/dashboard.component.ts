@@ -22,10 +22,10 @@ export class DashboardComponent implements OnInit {
       type: 'line',
 
       data: {
-        lables: ['jan', 'feb', 'march', 'april', 'may', 'june', 'july', 'aug', 'sept', 'oct', 'nov', 'dec'],
+        lables: ['jan', 'feb', 'march', 'april', 'may', 'june', 'july'],
         datasets: [{
           label: 'Logs in an year',
-          data: [0, 2, 10, 3, 3, 5, 8, 9, 10, 9, 12, 18],
+          data: [0, 2, 10, 3, 3, 5, 8],
           fill: false,
           lineTension: 0.5,
           borderColor: 'black',
