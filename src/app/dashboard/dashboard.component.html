@@ -2,79 +2,102 @@
 
 <!-- HEADER -->
 
-    <div class="appHeader" fxLayout="row">
-        <a>
-          <!-- <img class="headerLogo" src="../assets/logo.png"> -->
-          <p class="headerLogo">APP ANALYSIS</p>
-        </a>
-    </div>
+<div class="appHeader" fxLayout="row">
+    <a>
+      <!-- <img class="headerLogo" src="../assets/logo.png"> -->
+      <p class="headerLogo">APP ANALYSIS</p>
+    </a>
+</div>
 
 <!-- TOOLBAR -->
 
-    <mat-toolbar class="toolbarStle">
-        <p class="toolbarLogo">
-          DASHBOARD
-        </p>
-    </mat-toolbar>
+<mat-toolbar class="toolbarStle">
+    <p class="toolbarLogo">
+      DASHBOARD
+    </p>
+</mat-toolbar>
 
   <!-- CONTIANER -->
+<div fxLayout="row" fxLayoutGap="3px">
+  <div fxFlex="35">
+    <mat-card class="chartCard">
+    </mat-card>
+  </div>
 
-    <div fxLayout="row">
-      <mat-card class="chartCard">
-        <div fxLayout="row wrap" fxLayoutGap="2px" fxLayoutAlign="space-around center">
-          <div fxFlex="24">
-              <mat-card class="chartSubCards">
-                  <canvas id="linechart"></canvas>
-              </mat-card>
-          </div>
+  <div fxFlex="65" fxLayout="column">
+    <mat-card style=" box-shadow: 3px 3px 2px grey; width: auto; height: 400px;
+    padding: 20px; background-color: darkgray;">
+      <div fxLayout="row wrap" fxLayoutGap="2px" fxLayoutAlign="center">
+        <div fxFlex="47">
+            <mat-card class="chartSubCards">
 
-          <div fxFlex="24">
-              <mat-card class="chartSubCards">
-                <canvas id="barChart">
-
-                </canvas>
-              </mat-card>
-          </div>
-
-          <div fxFlex="24">
-              <mat-card class="chartSubCards">
-                <canvas id="pieChart">
-
-                </canvas>
-              </mat-card>
-          </div>
-
-          <div fxFlex="24">
-              <mat-card class="chartSubCards">
-
-              </mat-card>
-          </div>
+            </mat-card>
         </div>
-      </mat-card>
 
+        <div fxFlex="47">
+            <mat-card class="chartSubCards">
+
+            </mat-card>
+        </div>
+        </div>
+        <div fxLayout="row wrap" fxLayoutGap="2px" fxLayoutAlign="center">
+
+        <div fxFlex="47">
+            <mat-card class="chartSubCards">
+
+            </mat-card>
+        </div>
+
+        <div fxFlex="47">
+            <mat-card class="chartSubCards">
+
+            </mat-card>
+        </div>
+      </div>
+    </mat-card>
+
+  </div>
+
+  <!-- <div fxLayout="column" fxFlex="65" fxLayoutAlign="start start">
+    <div fxFlex="30" fxLayout="row wrap" fxLayoutGap="2px" fxLayoutAlign="center">
+      <div>
+          <mat-card class="chartSubCards">
+
+          </mat-card>
+      </div>
+
+      <div>
+          <mat-card class="chartSubCards">
+
+          </mat-card>
+      </div>
     </div>
 
-    <div fxLayout="row wrap" fxLayoutGap="1px" fxLayoutAlign="space-around center">
-      <div fxFlex="24">
-          <mat-card class="cardStyle">Simple card</mat-card>
+    <div fxFlex="30" fxLayout="row wrap" fxLayoutGap="2px" fxLayoutAlign="center">
+      <div fxFlex>
+          <mat-card class="chartSubCards">
+
+          </mat-card>
       </div>
 
-      <div fxFlex="24">
-          <mat-card class="cardStyle">Simple card</mat-card>
-      </div>
+      <div fxFlex>
+        <mat-card class="chartSubCards">
 
-      <div fxFlex="24">
-          <mat-card class="cardStyle">Simple card</mat-card>
-      </div>
-
-      <div fxFlex="24">
-          <mat-card class="cardStyle">Simple card</mat-card>
+        </mat-card>
       </div>
     </div>
+  </div> -->
+
+</div>
+
+<div fxLayout="row" fxLayoutGap="1px" fxLayoutAlign="center">
+  <div fxFill>
+      <mat-card class="cardStyle"></mat-card>
+  </div>
+</div>
 
 <!-- FOOTER -->
 
-    <div style="background: #2d2d2d; opacity: 0.5;" fxLayout="row wrap"  fxLayoutAlign="center center">
-        <p class="footer-links" style="font-size: small; margin-top: 10px; color: white;"> © 2019</p>
-    </div>
+<div style="background: #2d2d2d; opacity: 0.5;" fxLayout="row wrap"  fxLayoutAlign="center center">
+  <p class="footer-links" style="font-size: small; margin-top: 10px; color: white;"> © 2019</p>
 </div>
